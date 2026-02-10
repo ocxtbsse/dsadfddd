@@ -23,7 +23,7 @@ class Window{
             return 1;
         }
         glfwMakeContextCurrent(window);
-                // 3. Инициализация GLEW (Строго после контекста!)
+                // 3. Инициализация GLEW (Строго после контекста!) или атата
         glewExperimental = GL_TRUE;
         if (glewInit() != GLEW_OK) {
             std::cerr << "GLEW init failed!" << std::endl;
