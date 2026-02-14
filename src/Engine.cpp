@@ -302,7 +302,7 @@ int update(){
 
 
     float time = (float)glfwGetTime();
-
+     //Ignati lapkin mode
     obj.rotation.x += sin(time);
     obj2.rotation.x += sin(time-0.5f);
     return 0;
