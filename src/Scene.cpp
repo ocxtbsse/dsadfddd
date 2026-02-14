@@ -6,7 +6,7 @@ extern int meshLoadUlta(GameObject& targetObj,char* modelName);
 std::vector<GameObject> sceneObjects;
 std::vector<Camera> sceneCamers;
 
-int startSceneCreateOnjects(){
+int startSceneCreateOnjects(){//лень менять название
     Camera cam;
     cam.position = glm::vec3(0.0f, 0.0f, -2.0f);
     cam.front = glm::vec3(0.0f, 0.0f, -1.0f);
@@ -50,12 +50,12 @@ int startSceneCreateOnjects(){
 
 
 
-void pushBackObject(GameObject PtrGMO){
+void pushBackObject(GameObject PtrGMO){//лень менять название
     sceneObjects.push_back(PtrGMO);    
 }
 
 
-void pushBackCamera(Camera PtrCam){
+void pushBackCamera(Camera PtrCam){//лень менять название
     sceneCamers.push_back(PtrCam);
 }
 
