@@ -48,7 +48,10 @@ public:
                 // UV
                 if (index.texcoord_index >= 0) {
                     vertex.texCoords[0] = attrib.texcoords[2 * index.texcoord_index + 0];
-                    vertex.texCoords[1] = attrib.texcoords[2 * index.texcoord_index + 1];
+                    vertex.texCoords[1] = 1.0f - attrib.texcoords[2 * index.texcoord_index + 1]; 
+                } else {
+                    vertex.texCoords[0] = 0.0f;
+                    vertex.texCoords[1] = 0.0f;
                 }
 
                 vertices.push_back(vertex);
