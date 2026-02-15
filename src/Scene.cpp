@@ -21,7 +21,7 @@ int startSceneCreateOnjects(){
     meshLoadUlta(cube,cube.mesh.modelName);
 
 
-    cube.material.textureName = "textures/treeT.jpg";
+    cube.material.textureName = "textures/";
     cube.material.textureID = textureLoad(cube.material.textureName);
 
     cube.position = glm::vec3(0.0f,-4.0f,-2.0f);
@@ -37,7 +37,7 @@ int startSceneCreateOnjects(){
     meshLoadUlta(cube3,cube3.mesh.modelName);
 
 
-    cube3.material.textureName = "textures/listva.jpg";
+    cube3.material.textureName = "textures/";
     cube3.material.textureID = textureLoad(cube3.material.textureName);
 
     cube3.position = glm::vec3(0.0f,-4.0f,-2.0f);
@@ -54,7 +54,7 @@ int startSceneCreateOnjects(){
     meshLoadUlta(cube2,cube2.mesh.modelName);
 
     
-    cube2.material.textureName = "textures/wall.jpg";
+    cube2.material.textureName = "textures/";
     cube2.material.textureID = textureLoad(cube2.material.textureName);
 
 
